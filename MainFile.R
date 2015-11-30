@@ -58,16 +58,16 @@ source("Plot1.R")
 source("Table2.R")
 source("Table3.R")
 source("Table4.R")
-source("VECM.R")  # Equation 17 + 18 /
+source("VECM.R")  # Equation 17 + 18 
 source("Plot3.R")
-source("Table5.R") /
+source("Table5.R")
 source("Plot4&5.R")
 source("FGLS.R")  # Table 7 + 8
 source("Table6.R")
 source("Plot2.R")
 source("Plot6.R")
 source("RF_Plot7.R")
-source("Plot8.R") /
+source("Plot8.R")
 source("Plot9.R")
 source("Table9.R")
 source("Table10.R")
