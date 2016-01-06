@@ -1,3 +1,52 @@
+# Clear memory
+rm(list = ls())
+# Set working directory
+#setwd("...")
+
+# install and load libraries
+libraries = c("car",
+              "abind",
+              "quantmod",
+              "zoo", 
+              "Epi",
+              "tseries",
+              "urca",
+              "vars",
+              "tsDyn",
+              "stats", 
+              "fGarch",
+              "np",
+              "corpcor",
+              "FinTS",
+              "rugarch", 
+              "rmgarch",
+              "Rcpp",
+              "truncnorm",
+              "Kendall",
+              "sm",
+              "ccgarch")
+
+lapply(libraries, function(x) if (!(x %in% installed.packages())) {
+  install.packages(x)
+})
+
+lapply(libraries,require,quietly=TRUE,character.only=TRUE)
+
+#install archived package uroot
+pkgfile = "uroot_1.4.tar.gz"
+
+download.file(url      = "http://cran.r-project.org/src/contrib/Archive/uroot/uroot_1.4.tar.gz",
+              destfile = pkgfile)
+
+install.packages(pkgs  = pkgfile,
+                 type  = "source",
+                 repos = NULL)
+
+require("uroot")
+unlink(pkgfile)
+
+source("Data.R")
+
 # Plot 1
 par(mfrow = c(1, 2))
 plot(Data$Date,
