@@ -1,12 +1,12 @@
-Name of QuantLet:  VolLinkagesPricePlot
+Name of QuantLet:  VolLinkagesStat
 
 Published in:      Volatility Linkages between Energy and Agricultural Commodity Prices
 
-Description:       Shows a plot of the raw data and deseasonalized log prices of crude oil, biodiesel and rapeseed
+Description:       Computes summary statistics of the price data
 
 Keywords:          volatility, linkages, commodities, biodiesel
 
-See also:          VolLinkagesData.R
+See also:          VolLinkagesData.R, VolLinkagesPricePlot.R
 
 Author:            Franziska Schulz, Brenda López Cabrera
 
@@ -16,6 +16,6 @@ Datafile:          CrudeOil.txt, Biodiesel.txt, Rapeseed.txt
 
 Input:  		   VolLinkagesData.R
 
-Output:  		   Plot of prices and deseasonalized log prices
+Output:  		   Summary statistics of the price data
 
 Example: 
