@@ -1,0 +1,21 @@
+﻿Name of QuantLet:  VolLinkagesVecmRes
+
+Published in:      Volatility Linkages between Energy and Agricultural Commodity Prices
+
+Description:       Estimates a VECM of the prices using a FGLS estimator and plots the residuals
+
+Keywords:          volatility, linkages, commodities, biodiesel
+
+See also:          VolLinkagesData.R, VolLinkagesPricePlot.R
+
+Author:            Franziska Schulz, Brenda López Cabrera
+
+Submitted:         06.01.2016
+
+Datafile:          CrudeOil.txt, Biodiesel.txt, Rapeseed.txt
+
+Input:  	   VolLinkagesData.R, VolLinkagesFGLS, VolLinkagesVECM
+
+Output:  	   VECM estimates, plot of VECM residuals
+
+Example: 
