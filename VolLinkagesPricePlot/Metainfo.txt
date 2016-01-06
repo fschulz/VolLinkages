@@ -6,7 +6,7 @@ Description:       Shows a plot of the raw data and deseasonalized log prices of
 
 Keywords:          volatility, linkages, commodities, biodiesel
 
-See also:          VolLinkagesData.R
+See also:          VolLinkagesStat, VolLinkagesVECM
 
 Author:            Franziska Schulz, Brenda López Cabrera
 

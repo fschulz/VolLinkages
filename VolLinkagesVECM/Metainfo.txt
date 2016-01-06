@@ -6,7 +6,7 @@ Description:       Estimates a VECM of the prices using a FGLS estimator and plo
 
 Keywords:          volatility, linkages, commodities, biodiesel
 
-See also:          VolLinkagesData.R, VolLinkagesPricePlot.R
+See also:          VolLinkagesStat, VolLinkagesPricePlot
 
 Author:            Franziska Schulz, Brenda López Cabrera
 
