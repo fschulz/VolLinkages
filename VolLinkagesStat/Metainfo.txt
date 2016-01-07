@@ -4,7 +4,7 @@ Published in:      Volatility Linkages between Energy and Agricultural Commodity
 
 Description:       Computes summary statistics of the price data
 
-Keywords:          volatility, linkage, garch, least-squares, price
+Keywords:          volatility, linkage, price, time-series, autocorrelation
 
 See also:          VolLinkagesVECM, VolLinkagesPricePlot
 
