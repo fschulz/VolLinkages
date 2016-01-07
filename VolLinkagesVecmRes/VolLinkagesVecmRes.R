@@ -1,7 +1,7 @@
 # Clear memory
 rm(list = ls())
 # Set working directory
-setwd("C:\\Users\\Franziska Schulz\\Dropbox\\SHK_HU\\Quantlets")
+#setwd("C:...")
 
 # install and load libraries
 libraries = c("car",
@@ -42,8 +42,8 @@ install.packages(pkgs  = pkgfile,
                  type  = "source",
                  repos = NULL)
 
-source("Data.R")
-source("VECM.R")
+source("VolLinkagesData.R")
+source("VolLinkagesVECM.R")
 
 par(mfrow = c(1, 3))
 

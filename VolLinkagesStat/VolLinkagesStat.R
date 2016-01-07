@@ -1,4 +1,38 @@
-# Table 2
+# Clear memory
+rm(list = ls())
+# Set working directory
+#setwd("...")
+
+# install and load libraries
+libraries = c("car",
+              "abind",
+              "quantmod",
+              "zoo", 
+              "Epi",
+              "tseries",
+              "urca",
+              "vars",
+              "tsDyn",
+              "stats", 
+              "fGarch",
+              "np",
+              "corpcor",
+              "FinTS",
+              "rugarch", 
+              "rmgarch",
+              "Rcpp",
+              "truncnorm",
+              "Kendall",
+              "sm",
+              "ccgarch")
+
+lapply(libraries, function(x) if (!(x %in% installed.packages())) {
+  install.packages(x)
+})
+
+lapply(libraries,require,quietly=TRUE,character.only=TRUE)
+
+source("VolLinkagesData.R")
 
 print("Mean")
 print(colMeans(Data[, -1]))

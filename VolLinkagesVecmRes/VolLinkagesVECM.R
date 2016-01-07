@@ -1,4 +1,4 @@
-source("FGLS.R")
+source("VolLinkagesFGLS.R")
 # Equation 17
 print("beta")
 print(beta.hat)

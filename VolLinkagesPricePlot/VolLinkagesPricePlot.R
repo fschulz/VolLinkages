@@ -32,20 +32,7 @@ lapply(libraries, function(x) if (!(x %in% installed.packages())) {
 
 lapply(libraries,require,quietly=TRUE,character.only=TRUE)
 
-#install archived package uroot
-pkgfile = "uroot_1.4.tar.gz"
-
-download.file(url      = "http://cran.r-project.org/src/contrib/Archive/uroot/uroot_1.4.tar.gz",
-              destfile = pkgfile)
-
-install.packages(pkgs  = pkgfile,
-                 type  = "source",
-                 repos = NULL)
-
-require("uroot")
-unlink(pkgfile)
-
-source("Data.R")
+source("VolLinkagesData.R")
 
 # Plot 1
 par(mfrow = c(1, 2))
