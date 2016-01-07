@@ -14,8 +14,8 @@ Submitted:         06.01.2016
 
 Datafile:          CrudeOil.txt, Biodiesel.txt, Rapeseed.txt
 
-Input:  	   			 VolLinkagesData.R, VolLinkagesFGLS, VolLinkagesVECM
+Input:  	   	   VolLinkagesData.R, VolLinkagesFGLS, VolLinkagesVECM
 
-Output		 	   		 VECM estimates, plot of VECM residuals
+Output		 	   VECM estimates, plot of VECM residuals
 
 Example: 
