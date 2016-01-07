@@ -4,7 +4,7 @@ Published in:      Volatility Linkages between Energy and Agricultural Commodity
 
 Description:       Shows a plot of the raw data and deseasonalized log prices of crude oil, biodiesel and rapeseed
 
-Keywords:          volatility, linkages, commodities, biodiesel
+Keywords:          volatility, linkage, garch, least-squares, price
 
 See also:          VolLinkagesStat, VolLinkagesVECM
 

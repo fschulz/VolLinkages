@@ -4,7 +4,7 @@ Published in:      Volatility Linkages between Energy and Agricultural Commodity
 
 Description:       Estimates a VECM of the prices using a FGLS estimator and plots the residuals
 
-Keywords:          volatility, linkages, commodities, biodiesel, vecm, fgls
+Keywords:          volatility, linkage, garch, least-squares, price
 
 See also:          VolLinkagesStat, VolLinkagesPricePlot
 
