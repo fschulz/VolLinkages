@@ -2,7 +2,7 @@
 
 Published in:      Volatility Linkages between Energy and Agricultural Commodity Prices
 
-Description:       Computes summary statistics of the price data
+Description:       Computes summary statistics, normality tests and tests for autocorrelation and GARCH effects of the price data
 
 Keywords:          volatility, linkage, price, time-series, autocorrelation
 
@@ -16,6 +16,4 @@ Datafile:          CrudeOil.txt, Biodiesel.txt, Rapeseed.txt
 
 Input:  	   VolLinkagesData.R
 
-Output:  	   Summary statistics of the price data
-
-Example: 
+Example: 		Summary statistics and tests results for the price data
