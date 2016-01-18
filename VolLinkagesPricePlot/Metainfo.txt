@@ -15,5 +15,5 @@ Submitted:         06.01.2016
 Datafile:          CrudeOil.txt, Biodiesel.txt, Rapeseed.txt
 
 Input:             VolLinkagesData.R
- 
+
 Example:           Plot of prices and deseasonalized log prices
