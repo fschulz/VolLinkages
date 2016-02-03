@@ -19,4 +19,4 @@ Datafile:          Data.txt, Data_log.txt
 
 Input:             VolLinkagesVECM.R, VolLinkagesFGLS.R, VolLinkagesBootstrap.R, VolLinkagesFigure7.R, VolLinkagesNonp.R
 
-Example:           Summary statistics and tests results for the price data
+Example:           Plot of unconditional volatility and correlation estimates together with 90% pointwise confidence intervals
