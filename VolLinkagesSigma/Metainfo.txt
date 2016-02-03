@@ -9,7 +9,7 @@ Description:       Computes and plots nonparametric estimates of the uncondition
 
 Keywords:          volatility, correlation, nonparametric, optimal bandwidth, cross-validation, bootstrap
 
-See also:          VolLinkagesVECM, VolLinkagesPricePlot, VolLinkagesStats
+See also:          VolLinkagesVecmRes, VolLinkagesPricePlot, VolLinkagesStats, VolLinkagesDCC
 
 Author:            Franziska Schulz, Brenda López Cabrera
 
