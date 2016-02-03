@@ -57,6 +57,6 @@ Data$Date <- as.Date(Data$Date)
 lp        <- read.delim("Data_log.txt")
 
 #source dependent files
-source("VECM.R", print.eval = FALSE)
-source("Sigma.R", print.eval = FALSE)
-source("Figure7.R")
+source("VolLinkagesVECM.R", print.eval = FALSE)
+source("VolLinkagesNonp.R", print.eval = FALSE)
+source("VolLinkagesFigure7.R")

@@ -1,4 +1,4 @@
-source("Bootstrap.R")
+source("VolLinkagesBootstrap.R")
 ## Plots
 
 par(mfrow = c(3, 3))
